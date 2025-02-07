@@ -12,8 +12,6 @@
   - [Transações](#transações)
 - [Exemplos](#exemplos)
 - [Limitações](#limitações)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
 
 ---
 
