@@ -1,0 +1,15 @@
+[package]
+name = "hexen_db_service"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+aes-gcm = "0.10"
+base64 = "0.13"
+rand = "0.8"
+tokio = { version = "1", features = ["full"] }
+flate2 = "1.0" # Para compactação gzip
+chrono = "0.4" # Para timestamps
+bcrypt = "0.13" # Para hashing seguro de senhas
